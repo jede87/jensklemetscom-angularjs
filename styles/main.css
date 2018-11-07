@@ -1,0 +1,98 @@
+::-moz-selection {
+  background: yellow;
+}
+::selection {
+  background: yellow;
+}
+body {
+  font-family: "Crimson Text", serif !important;
+}
+p {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.2rem;
+}
+a {
+  color: rgba(0, 0, 0, 0.87);
+}
+ul {
+  font-family: "Montserrat", sans-serif !important;
+}
+.section:hover {
+  box-shadow: inset 0px -17px 19px -21px #ccc;
+}
+#top {
+  display: initial;
+}
+#top .section {
+  bottom: 0;
+  position: absolute;
+  max-width: 90%;
+  width: 100%;
+}
+#top .section:hover {
+  box-shadow: none;
+}
+.parallax {
+  height: 500px;
+}
+.parallax img {
+  opacity: 0.5;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  transition: 200ms -webkit-filter linear;
+}
+.parallax-container:hover .parallax img {
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+}
+#social a {
+  margin-right: 5px;
+}
+#social a:last-child {
+  margin-right: 0px;
+}
+.btn {
+  text-transform: lowercase;
+  font-family: "Montserrat", sans-serif !important;
+}
+.cv-img {
+  display: block;
+  max-width: 100px !important;
+}
+.link-img {
+  max-width: 18px;
+  margin: 0.82rem 0 0.656rem 0;
+}
+.feather
+{
+    display:block;
+    position:relative;
+}
+
+.feather:before
+{
+    display:block;
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    -moz-box-shadow:inset -10px -18px 10px 25px rgba(255,255,255,1);
+    -webkit-box-shadow:inset -10px -18px 10px 25px rgba(255,255,255,1);
+    box-shadow:inset -10px -18px 10px 25px rgba(255,255,255,1);;
+}
+@media only screen and (min-width: 601px) {
+  #top .section {
+    max-width: 85%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  #top .section {
+    max-width: 70%;
+  }
+}

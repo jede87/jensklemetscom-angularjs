@@ -1,0 +1,19 @@
+{
+  "name": "jensklemets.com",
+  "version": "1.0.0",
+  "description": "a starter site with google font, materializecss, angularjs, angular-route and angular-sanitize. copy with pride",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-lazy-loader": "^2.1.0",
+    "angular-route": "^1.6.6",
+    "angular-sanitize": "^1.6.6",
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jens Klemets",
+  "license": "ISC"
+}
